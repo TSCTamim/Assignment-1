@@ -1,10 +1,16 @@
 
-
 .inter-normal {
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
   font-style: normal;
 }
+
+.raleway-normal {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
 
 /* shared styles */
 
@@ -67,3 +73,40 @@ header nav{
   height: 48px;
 }
 
+/* main styles */
+
+main{
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+/* action styles */
+
+.action{
+  display: flex;
+  gap: 220px;
+  align-items: center;
+  margin-top: 116px;
+}
+
+.action-title{
+  font-weight: bold;
+  font-size: 42px;
+  color: #252432;
+  margin-bottom: 0px;
+}
+
+.action-subtitle{
+  font-size: 24px;
+  color: rgba(37, 36, 50, 0.5);
+  margin-top: 23px;
+}
+
+.btn-3{
+  width: 229px;
+  height: 48px;
+}
+
+.action img{
+  border-radius: 48px;
+}
