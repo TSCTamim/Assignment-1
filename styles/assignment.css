@@ -15,11 +15,25 @@
   font-weight: bold;
   width: 132px;
   height: 48px;
-  padding: 12px 30px;
   border-radius: 10px;
   border: none;
+}
 
+.btn-primary:hover{
+  background-color: yellow;
+  color: black;
+}
 
+.text-center{
+  text-align: center;
+}
+
+/* header styles */
+
+header{
+  width: 1440px;
+  height: 698px;
+  background-image: url(../Assets/Hero-bg.png);
 }
 
 header nav{
@@ -33,5 +47,22 @@ header nav{
   color: #4E47FF;
   font-weight:900;
   margin-top: 0px;
+  margin-bottom: 0px;
 
 }
+.banner{
+  width: 905px;
+  height: 237px;
+  margin: 152px 267.5px;
+}
+.banner-heading{
+  font-weight: bold;
+  font-size: 65px;
+  color: #252432;
+  margin-bottom: 37px;
+}
+.btn-2{
+  width: 174px;
+  height: 48px;
+}
+
