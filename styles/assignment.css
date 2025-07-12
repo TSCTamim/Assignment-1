@@ -11,7 +11,6 @@
   font-style: normal;
 }
 
-
 /* shared styles */
 
 .btn-primary{
@@ -73,6 +72,9 @@ header nav{
   height: 48px;
 }
 
+body{
+  background-color: #F5F8FF;
+}
 /* main styles */
 
 main{
@@ -161,6 +163,7 @@ main{
 }
 .card{
   padding: 24px;
+  background-color: rgba(255, 255, 255, 0.5);
   box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06)
 }
 .card-title{
@@ -187,3 +190,47 @@ main{
   color: rgba(179, 179, 179, 1);
   margin-top: 0px;
 }
+
+/* Get in touch section styles */
+
+.get-in-touch{
+  display: flex;
+  gap: 115px;
+  align-items: center;
+  margin-top: 92.23px;
+}
+.git-section-title{
+  font-weight: bold;
+  font-size: 97px;
+  color: #000000;
+}
+input[type="email"],input[type="text"],textarea{
+  display: block;
+  font-size: 20px;
+  width: 497px;
+  height: 70px;
+  padding-left: 32px;
+  background-color: rgba(255, 255, 255, 1);
+  margin-bottom: 10px;
+  border-radius: 10px;
+  border: none;
+  margin-top: 10px;
+}
+label{
+  font-weight: 500;
+  font-size: 18px;
+}
+textarea{
+  height: 135px;
+  padding-top: 20px;
+}
+.btn-4{
+  width: 100%;
+  height: 62px;
+  font-size: 16px;
+  font-weight: bold;
+  margin-top: 10px;
+  margin-bottom: 71px;
+}
+
+
